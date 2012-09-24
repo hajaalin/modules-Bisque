@@ -1,0 +1,4 @@
+// Bisque module microservices
+// Service name				# args		Service function
+{"msiBisqueUrlOpen",					4,		(funcPtr) msiBisqueUrlOpen},
+{"msiAVUs2BisqueTags",					2,		(funcPtr) msiAVUs2BisqueTags},
