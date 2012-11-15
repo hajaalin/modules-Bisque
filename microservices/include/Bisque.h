@@ -13,6 +13,7 @@
 #include "objMetaOpr.h"
 #include "miscUtil.h"
 
-int msiUrlOpen(msParam_t *url, msParam_t *data, msParam_t *auth, msParam_t *res, ruleExecInfo_t *rei);
+int msiBisqueUrlOpen(msParam_t *url, msParam_t *data, msParam_t *auth, msParam_t *res, ruleExecInfo_t *rei);
+int msiAVUs2BisqueTags(msParam_t *avus, msParam_t *tags, ruleExecInfo_t *rei);
 
 #endif	/* URLMS_H */

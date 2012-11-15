@@ -32,11 +32,11 @@ MSIncDir =	$(modulesDir)/Bisque/microservices/include
 #
 # Source files
 #
-OBJECTS = $(MSObjDir)/Url.o $(MSObjDir)/Tags.o  
+OBJECTS = $(MSObjDir)/URL.o $(MSObjDir)/Tags.o  
 
-INCLUDE_FLAGS =	-I$(MSIncDir) 
+INCLUDE_FLAGS =	-I$(MSIncDir)
 
-
+LIB_INCLUDES = -lcurl
 
 
 
